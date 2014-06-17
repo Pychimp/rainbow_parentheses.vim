@@ -55,6 +55,8 @@ au Syntax * RainbowParenthesesLoadBraces
 Most of is taken as from ```kien/rainbow_parentheses.vim```,
 these changes make the colours better suited for light colorschemes
 
+###### (Pretty much, WIP !)
+
 ```diff
 diff --git a/autoload/rainbow_parentheses.vim b/autoload/rainbow_parentheses.vim
 index 87a74ad..4bad954 100644
