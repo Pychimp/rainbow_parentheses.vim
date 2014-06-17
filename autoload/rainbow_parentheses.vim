@@ -5,22 +5,22 @@
 "==============================================================================
 
 let s:pairs = [
-	\ ['brown',       'RoyalBlue3'],
-	\ ['Darkblue',    'SeaGreen3'],
-	\ ['darkgray',    'DarkOrchid3'],
+	\ ['brown',       '#a4c639'],
+	\ ['Darkblue',    '#ffbbbb'],
+	\ ['darkgray',    '#00ff00'],
 	\ ['darkgreen',   'firebrick3'],
 	\ ['darkcyan',    'RoyalBlue3'],
 	\ ['darkred',     'SeaGreen3'],
 	\ ['darkmagenta', 'DarkOrchid3'],
 	\ ['brown',       'firebrick3'],
 	\ ['gray',        'RoyalBlue3'],
-	\ ['black',       'SeaGreen3'],
+	\ ['black',       '#007fff'],
 	\ ['darkmagenta', 'DarkOrchid3'],
 	\ ['Darkblue',    'firebrick3'],
 	\ ['darkgreen',   'RoyalBlue3'],
-	\ ['darkcyan',    'SeaGreen3'],
-	\ ['darkred',     'DarkOrchid3'],
-	\ ['red',         'firebrick3'],
+	\ ['darkcyan',    '#ff0000'],
+	\ ['darkred',     '#eb6300'],
+  \ ['red',         '#078251'],
 	\ ]
 let s:pairs = exists('g:rbpt_colorpairs') ? g:rbpt_colorpairs : s:pairs
 let s:max = exists('g:rbpt_max') ? g:rbpt_max : max([len(s:pairs), 16])
